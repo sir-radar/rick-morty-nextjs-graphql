@@ -122,7 +122,6 @@ const CharacterContainer = styled.section`
   flex-direction: row;
   gap: 16px;
   .image-container {
-    width: 30%;
   }
   .info-container {
     width: 70%;
