@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useCallback } from 'react';
 import styled from 'styled-components';
-import { Episode } from '@/interfaces/episode-interfaces';
+import { Episode } from '../../models/episode-interfaces';
 import Chip from '../chip';
 import SubTitle from '../titles/sub-title';
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Episode } from '@/interfaces/episode-interfaces';
-import { Location } from '@/interfaces/location-interfaces';
+import { Episode } from '../../models/episode-interfaces';
+import { Location } from '../../models/location-interfaces';
 import EpisodeResult from './episode-result';
 import LocationResult from './location-result';
 

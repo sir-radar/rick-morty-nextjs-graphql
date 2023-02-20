@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import styled from 'styled-components';
-import { Character } from '@/interfaces/characters-interfaces';
+import { Character } from '../../models/characters-interfaces';
 import { useRouter } from 'next/router';
 
 const CharacterCard: React.FC<Character> = ({
