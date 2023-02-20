@@ -1,8 +1,11 @@
+import React from 'react';
 import styled from 'styled-components';
-import { Episode } from '../../models/episode-interfaces';
-import { Location } from '../../models/location-interfaces';
+
 import EpisodeResult from './episode-result';
 import LocationResult from './location-result';
+
+import { Episode } from '../../models/episode-interfaces';
+import { Location } from '../../models/location-interfaces';
 
 interface ListProp<T> {
   results: T[];
@@ -46,6 +49,8 @@ const renderList = ({
       </Container>
     );
   }
+
+  return <Container>Loading</Container>;
 };
 
 const List = <T extends Episode | Location>({
